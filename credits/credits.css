@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: font1;
+    src: url(../src/font1.ttf);
+}
+#page-wrapper{
+    font-family: font1, sans-serif;
+    text-align: center;
+    background-image: url("../src/30 Sets of Free High Quality Lined Paper Texture | Naldz Graphics.jpg");
+}
+
+
+
+header{
+    margin-bottom: 2vh;
+    background-color:#FCB72B;
+    box-shadow: 0 0 20px;
+}
+nav{
+    margin-bottom: 2vh;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav li{
+    display: inline;
+    margin: 1vh 5vw;
+    font-size: 2.5em;
+}
+
+.anchor-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.anchor-div p {
+    color: darkblue;
+    font-size: calc(4px + 0.8vw);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.fa-solid, .fa-brands {
+    font-size: calc(20px + 2.5vw);
+}
+
+.nav-icon {
+    color: darkblue;
+}
+main {
+    height: 100%;
+    margin-bottom: 2vh;
+}
+main, p{
+    padding: 2vh;
+    font-size: calc(7px + 1.25vw);
+    font-weight: bolder;
+}
+main, h1{
+    font-size: calc(20px + 2.5vw);
+}
+
+
+footer {
+    background-color: #FCB72B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2vh 0;
+}

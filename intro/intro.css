@@ -1,0 +1,122 @@
+*{
+    margin: 0; padding: 0;
+    outline: none; border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+img{
+    box-shadow: 0 0 20px;
+}
+p{
+    font-weight: bolder;
+    font-size:calc(9px + 1.5vw);
+}
+h1{
+    font-weight: bolder;
+    font-size:calc(15px + 1.5vw);
+}
+
+@font-face {
+    font-family: font1;
+    src: url(../src/font1.ttf);
+}
+#page-wrapper{
+    font-family: font1, sans-serif;
+    text-align: center;
+    background-image: url("../src/30 Sets of Free High Quality Lined Paper Texture | Naldz Graphics.jpg");
+    font-size: calc(1vw + 2px);
+}
+
+header{
+    margin-bottom: 2vh;
+    background-color:#FCB72B;
+}
+
+nav{
+    margin-bottom: 2vh;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav li{
+    display: inline;
+    margin: 1vh 7vw;
+    font-size: 2.5em;
+}
+
+.anchor-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.anchor-div p {
+    color: darkblue;
+    font-size: calc(4px + 0.8vw);
+}
+
+a {
+    text-decoration: none;
+}
+
+#cartIcon {
+    position: absolute;
+    right: 2vw;
+}
+
+.fa-solid, .fa-brands {
+    font-size: calc(20px + 2.5vw);
+}
+
+.nav-icon {
+    color: darkblue;
+}
+
+#infor{
+    text-align: center;
+    margin: 5vh;
+}
+
+#infor p{
+    line-height: 4em;
+    display: inline-block;
+    text-align: left;
+    max-width: 50%;
+}
+
+#infor img{
+    max-width: 50%;
+    height: auto;
+    margin: 4vh;
+}
+
+.his{
+    text-align: center;
+    margin: 5vh;
+}
+
+.his p{
+    line-height: 4em;
+    display: inline-block;
+    text-align: left;
+    max-width: 50%;
+}
+
+.his img{
+    display: inline-block;
+    max-width: 50%;
+    height: auto;
+    margin: 4vh;
+}
+
+footer{
+    background-color: #FCB72B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2vh 0;
+}

@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: font1;
+    src: url(../src/font1.ttf);
+}
+#page-wrapper{
+    font-family: font1, sans-serif;
+    text-align: center;
+    background-image: url("../src/30 Sets of Free High Quality Lined Paper Texture | Naldz Graphics.jpg");
+}
+label{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    border:  none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+}
+button {
+    transition-duration: 0.4s;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #FCB72B; /* Green */
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+}
+header{
+    margin-bottom: 2vh;
+    background-color:#FCB72B;
+    box-shadow: 0 0 20px;
+}
+nav{
+    margin-bottom: 2vh;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav li{
+    display: inline;
+    margin: 1vh 7vw;
+    font-size: 2.5em;
+}
+
+.anchor-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.anchor-div p {
+    color: darkblue;
+    font-size: calc(4px + 0.8vw);
+}
+
+a {
+    text-decoration: none;
+}
+
+#cartIcon {
+    position: absolute;
+    right: 2vw;
+}
+
+.fa-solid, .fa-brands {
+    font-size: calc(20px + 2.5vw);
+}
+
+.nav-icon {
+    color: darkblue;
+}
+main {
+    height: 90vh;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: row;
+}
+#checkout{
+    width: 30%;
+    margin: 1em;
+    padding-top: 1em;
+    box-shadow: 0 0 20px;
+    visibility: visible;
+}
+#calculations{
+    text-align: right;
+    padding-right: 2vw;
+}
+#items{
+    margin: 1em;
+    width: 70%;
+    padding-top: 1em;
+    box-shadow: 0 0 20px;
+    padding-left: 15vw;
+    font-size: 30px;
+}
+#email,#address{
+    width: 70%;
+}
+#zip_code{
+    width: 30%;
+}
+.placeholder {
+    border: 2px solid black;
+    padding: 2vh 2vw;
+    margin: 4vh 20vw;
+    width: 40%;
+}
+
+
+.content {
+    padding: 8vh 8vw;
+}
+
+
+.add_cart {
+    font-family: font1, sans-serif;
+}
+
+
+.num{
+    width: 5vw;
+}
+#checkout-button {
+    margin-top: 1em;
+    display: block;
+    text-align: center;
+
+
+}
+footer{
+    background-color: #FCB72B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2vh 0;
+}
+#calculations{
+    font-size: 150%;
+    padding: 10vh;
+    text-align: center;
+}
+#thanks{
+    font-size: 150%;
+    padding-top: 40%;
+    visibility: hidden;
+}
+
+button {
+    transition-duration: 0.4s;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: calc(3px + 1.5vw);
+}
+
+input, label {
+    font-size: calc(5px + 1.5vw);
+}
+
+#inner {
+    width: 100%;
+    display: inline;
+}
+
+#total-heading {
+    font-size: calc(6px + 2vw);
+    color: darkgreen;
+}
+button:hover {
+    background-color: #FCB72B; /* Green */
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="The Stickmen Shop" content="Here you will find a variety of stickmen to purchase, who will help you earn stick dollars!">
+  <link rel="stylesheet" type="text/css" href="checkout.css">
+  <title>Checkout | Stickmen Shop</title>
+
+  <script src="https://kit.fontawesome.com/501ca9c5af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="page-wrapper">
+  <div id="container">
+    <header>
+      <h1>Checkout</h1>
+      <p>Check your order</p>
+    </header>
+    <nav>
+      <ul>
+        <!--A link to the home page-->
+        <li>
+          <a href="../home/home.html">
+            <div class="anchor-div"><i class="fa-solid fa-house nav-icon"></i> <p>Home</p></div>
+          </a>
+        </li>
+
+        <!--A link to the introduction page-->
+        <li>
+          <a href="../intro/intro.html">
+            <div class="anchor-div"><i class="fa-solid fa-bars nav-icon"></i> <p>Intro</p></div>
+          </a>
+        </li>
+
+        <!-- A link to the character descriptions page-->
+        <li>
+          <a href="../desc/desc.html">
+            <div class="anchor-div"><i class="fa-solid fa-circle-info nav-icon"></i> <p>Characters</p></div>
+          </a>
+        </li>
+        <!--A link to the stick dollar clicker page-->
+        <li>
+          <a href="../income/income.html">
+            <div class="anchor-div"><i class="fa-solid fa-coins nav-icon"></i> <p>Income</p></div>
+          </a>
+        </li>
+
+        <!--A link to the shop menu-->
+        <li>
+          <a href="../shop/shop.html">
+            <div class="anchor-div"><i class="fa-brands fa-shopify nav-icon"></i> <p>Shop</p></div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div id="items">
+        <div id="inner">
+          <label for="name">Name: </label><input id="name" >
+          <label for="phone_number">Phone Number: </label><input id="phone_number" >
+          <label for="email">Email: </label><input id="email" >
+          <label for="zip_code">Zip Code: </label><input id="zip_code" >
+          <label for="address">Address 1: </label><input id="address" >
+          <button onclick="handleButtonClick()" id="save-address">Save address</button>
+          <h3 id="output"></h3>
+        </div>
+      </div>
+      <div id="checkout">
+        <h1>Subtotal</h1>
+        <div id="calculations">
+          <p id="total-heading"> </p>
+        </div>
+        <p id="checkout-button">
+          <button onclick="checkout()">Proceed to Checkout</button>
+        </p>
+        <h2 id="thanks">Thank You for purchasing!</h2>
+      </div>
+    </main>
+    <footer>
+      <p>All rights reserved: <a href="../credits/credits.html">Credits</a></p>
+      <a href="../contact-page/contact-page.html">Contact Us</a>
+      <p>&copy; 2023 CS103 Stickman Co.</p>
+    </footer>
+    <script src="checkout.js"></script>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/501ca9c5af.js" crossorigin="anonymous"></script>
+    <meta
+            name="The Stickmen Shop cart"
+            content="here you can look at the items n your cart and check out"
+    >
+    <link rel="stylesheet" type="text/css" href="cart.css">
+    <title>Cart | Stickmen Shop</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+<!--Page wrapper to be called when we want to affect the entire page-->
+<div id="page-wrapper">
+
+    <!--Container to be called for columning purposes-->
+        <!--Header starts here-->
+        <header>
+            <h1>Shopping cart</h1>
+            <p>Shopping cart</p>
+        </header>
+        <!--Header ends here-->
+
+        <!--Navigation starts here-->
+
+    <nav>
+        <ul>
+            <!--A link to the home page-->
+            <li>
+                <a href="../home/home.html">
+                    <div class="anchor-div"><i class="fa-solid fa-house nav-icon"></i> <p>Home</p></div>
+                </a>
+            </li>
+
+            <!--A link to the introduction page-->
+            <li>
+                <a href="../intro/intro.html">
+                    <div class="anchor-div"><i class="fa-solid fa-bars nav-icon"></i> <p>Intro</p></div>
+                </a>
+            </li>
+
+            <!-- A link to the character descriptions page-->
+            <li>
+                <a href="../desc/desc.html">
+                    <div class="anchor-div"><i class="fa-solid fa-circle-info nav-icon"></i> <p>Characters</p></div>
+                </a>
+            </li>
+            <!--A link to the stick dollar clicker page-->
+            <li>
+                <a href="../income/income.html">
+                    <div class="anchor-div"><i class="fa-solid fa-coins nav-icon"></i> <p>Income</p></div>
+                </a>
+            </li>
+
+            <!--A link to the shop menu-->
+            <li>
+                <a href="../shop/shop.html">
+                    <div class="anchor-div"><i class="fa-brands fa-shopify nav-icon"></i> <p>Shop</p></div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+        <!--Navigation ends here-->
+
+    <!--Main content starts here.-->
+    <main>
+        <div id="wallet-area">
+            <p id="remainingMoney"></p>
+        </div>
+
+        <div id = "items">
+            <h3>Shopping Cart</h3>
+            <p>Items</p>
+            <div class="placeholder" id="one">
+                <p class="title"></p> <br>
+                <div class="content">
+                    <img src="../src/Basic_Stickman.png" alt="Basic Stickman For Sale" class="product-img">
+                </div>
+                <button class="addone" onclick="addone('Basic')">+</button>
+                <label for="Basic"></label><input id= "Basic" class = "num" readonly>
+                <button class="minusone" onclick="minusone('Basic')">-</button>
+
+            </div>
+
+
+            <div class="placeholder" id="two">
+                <p class="title"></p> <br>
+                <div class="content">
+                    <img src="../src/Bizzare_Stickman.png" alt="Bizarre Stickman For Sale" class="product-img">
+                </div>
+                <button class="addone" onclick="addone('Bizarre')">+</button>
+                <label for="Bizarre"></label><input  id= "Bizarre" class = "num" readonly>
+                <button class="minusone" onclick="minusone('Bizarre')">-</button>
+            </div>
+
+
+            <div class="placeholder" id="three">
+                <p class="title"></p> <br>
+                <div class="content">
+                    <img src="../src/Sword_Stickman.png" alt="Big Stickman For Sale" class="product-img">
+                </div>
+                <button class="addone" onclick="addone('Sword')">+</button>
+                <label for="Sword"></label><input  id= "Sword" class = "num" readonly>
+                <button class="minusone" onclick="minusone('Sword')">-</button>
+            </div>
+            <div class="placeholder" id="four">
+                <p class="title"></p> <br>
+                <div class="content">
+                    <img src="../src/Big_Stickman.png" alt="Big Stickman For Sale" class="product-img">
+                </div>
+                <button class="addone" onclick="addone('Big')">+</button>
+                <label for="Big"></label><input  id= "Big" class = "num" readonly>
+                <button class="minusone" onclick="minusone('Big')">-</button>
+            </div>
+
+
+            <div class="placeholder" id="five">
+                <p class="title"></p> <br>
+                <div class="content">
+                    <img src="../src/Gun_Stickman.png" alt="Gun Stickman For Sale" class="product-img">
+                </div>
+                <button class="addone" onclick="addone('Gun')">+</button>
+                <label for="Gun"></label><input  id= "Gun" class = "num" readonly>
+                <button class="minusone" onclick="minusone('Gun')">-</button>
+            </div>
+
+
+            <div class="placeholder" id="six">
+                <p class="title"></p> <br>
+                <div class="content">
+                    <img src="../src/Cow_Stickman.jpg" alt="cow Stickman For Sale" class="product-img">
+                </div>
+                <button class="addone" onclick="addone('Cow')">+</button>
+                <label for="Cow"></label><input  id= "Cow" class = "num" readonly>
+                <button class="minusone" onclick="minusone('Cow')">-</button>
+            </div>
+            <div class="placeholder" id="seven">
+                <p class="title"></p> <br>
+                <div class="content">
+                    <img src="../src/Alien_Stickman.png" alt="Alien Stickman For Sale" class="product-img">
+                </div>
+                <button class="addone" onclick="addone('Alien')">+</button>
+                <label for="Alien"></label><input  id= "Alien" class = "num" readonly>
+                <button class="minusone" onclick="minusone('Alien')">-</button>
+            </div>
+
+
+            <div class="placeholder" id="eight">
+                <p class="title"></p> <br>
+                <div class="content">
+                    <img src="../src/Super_Stickman.png" alt="Super Stickman For Sale" class="product-img">
+                </div>
+                <button class="addone" onclick="addone('Super')">+</button>
+                <label for="Super"></label><input  id= "Super" class = "num" readonly>
+                <button class="minusone" onclick="minusone('Super')">-</button>
+            </div>
+
+
+            <div class="placeholder" id="nine">
+                <p class="title"></p> <br>
+                <div class="content">
+                    <img src="../src/Crazed_Stickman.png" alt="crazed Stickman For Sale" class="product-img">
+                </div>
+                <button class="addone" onclick="addone('Crazed')">+</button>
+                <label for="Crazed"></label><input  id= "Crazed" class = "num" readonly>
+                <button class="minusone" onclick="minusone('Crazed')">-</button>
+            </div>
+        </div>
+        <div id = "checkout">
+            <h3>Subtotal</h3>
+            <div id = calculations>
+                <p id = "cost"></p>
+                <p id = "tax"></p>
+                <p id = "total"></p>
+            </div>
+            <p id = "checkout-button">
+                <a href="../checkout/checkout.html"><button onclick = "">Proceed to Checkout</button></a>
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>All rights reserved: <a href="../credits/credits.html">Credits</a></p>
+        <p><a href="../contact-page/contact-page.html">Contact us</a></p>
+        <p>&copy; 2023 CS103 Stickman Co.</p>
+    </footer>
+
+</div>
+
+<!--For coding stuff when we get around to it-->
+<script src="cart.js"></script>
+</body>
+</html>
+

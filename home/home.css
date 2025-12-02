@@ -1,0 +1,240 @@
+*{
+    margin: 0; padding: 0;
+    outline: none; border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+@font-face {
+    font-family: font1;
+    src: url(../src/font1.ttf);
+}
+#page-wrapper{
+    font-family: font1, sans-serif;
+    text-align: center;
+    background-image: url("../src/30 Sets of Free High Quality Lined Paper Texture | Naldz Graphics.jpg");
+}
+#top-pic{
+    margin-bottom: 6vh;
+}
+#shop-button{
+    padding-top: 6em;
+}
+p{
+    font-weight: bolder;
+}
+#slogan{
+    font-size:calc(30px + 3.5vw);
+    animation-name:blink;
+    animation-duration:2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count:Infinite;
+}
+
+@keyframes blink{
+    0%{color:black;}
+    50%{color:red;}
+    100%{color:black;}
+}
+img{
+    box-shadow: 0 0 20px;
+}
+#shop-button{
+    box-shadow: 0 0 20px;
+}
+
+header{
+    margin-bottom: 2vh;
+    background-color:#FCB72B;
+}
+
+nav{
+    margin-bottom: 2vh;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav li{
+    display: inline;
+    margin: 1vh 7vw;
+    font-size: 2.5em;
+}
+
+.anchor-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.anchor-div p {
+    color: darkblue;
+    font-size: calc(4px + 0.8vw);
+}
+
+a {
+    text-decoration: none;
+}
+
+#cartIcon {
+    position: absolute;
+    right: 2vw;
+}
+
+.fa-solid, .fa-brands {
+    font-size: calc(20px + 2.5vw);
+}
+
+.nav-icon {
+    color: darkblue;
+}
+
+main{
+    margin-bottom: 2vh;
+    display:flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#top-pic{
+    flex:1 1 40rem;
+    padding-top: 5rem;
+    max-width: 50%;
+}
+
+#top-pic img{
+    width: 100%;
+    height: 100%;
+}
+
+#top-cont{
+    flex:1 1 40rem;
+}
+
+#top-cont h1{
+    font-size: 5rem;
+}
+
+#top-cont h3{
+    font-size: 2rem;
+}
+
+#top-cont a{
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #FCB72B;
+    color: black;
+    padding: 5rem 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.mid h1{
+    margin-top: 7vh;
+}
+
+.mid h3{
+    margin-top: 7vh;
+    text-align: center;
+}
+
+
+.mid #mid-first{
+    display: inline;
+    float: left;
+    max-width: 20%;
+    height: auto;
+}
+
+.mid #mid-first img{
+    width: 100%;
+    height: 100%;
+}
+
+.mid #mid-second{
+    display: inline;
+    float: right;
+    max-width: 20%;
+    height: auto;
+}
+
+.mid #mid-second img{
+    width: 100%;
+    height: 100%;
+}
+
+.bot h3{
+    margin-top: 7vh;
+}
+
+.bot #bot-first{
+    display: inline;
+    float: left;
+    max-width: 20%;
+    height: auto;
+}
+
+.bot #bot-second{
+    float: right;
+    display: inline;
+    max-width: 20%;
+    height: auto;
+}
+
+.bot #bot-first img{
+    width: 100%;
+    height: 100%;
+}
+
+.bot #bot-second img{
+    width: 100%;
+    height: 100%;
+}
+
+.bot .best-sell {
+    display: inline-block;
+    max-width: 10%;
+    height: auto;
+    margin: 4vw;
+    border: 1vw solid #FCB72B;
+}
+
+.bot .best-sell img{
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: calc(15px + 2.5vw);
+}
+
+h3, #top-cont h3{
+    font-weight: bolder;
+    font-size: calc(5px + 2vw);
+}
+
+p {
+    font-weight: bolder;
+    font-size: calc(3px + 1.5vw);
+}
+
+
+
+footer{
+    background-color: #FCB72B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2vh 0;
+}
+
+
